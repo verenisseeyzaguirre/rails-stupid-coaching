@@ -1,3 +1,45 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+ // Defining a variable
+ $gray: #F4F4F4;
+ $yellow: #eeedb2ee;
+
+p {
+   padding: 0;
+   margin: 0;
+   margin: 10px 0;
+ }
+
+.card {
+  margin: 15px;
+  box-shadow: 0 0 3px 3px #bdbdbd1c;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border-left: 8px solid rgba(165, 165, 165, 0.637);
+  margin-bottom: 15px;
+}
+
+.question_card {
+ background: $gray; // Using this variable
+}
+
+.answer_card {
+ background: $yellow; // Using this variable
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: blueviolet;
+  }
+  text-decoration: none;
+}
+
+/* input {
+  background-color: blue;
+  color: white;
+  border: none;
+} */
